@@ -6,8 +6,13 @@
   padding: 0;
 }
 
-body {
+html, body {
+  height: 100%;
   font-family: system-ui, sans-serif;
   color: #1e293b;
   line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
 }
